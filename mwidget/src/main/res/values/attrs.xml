@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuccessFaildProgress">
+        <attr name="progress_width" format="dimension"/>
+        <attr name="progress_radius" format="dimension"/>
+        <attr name="progress_color" format="color"/>
+        <attr name="success_color" format="color"/>
+        <attr name="failed_color" format="color"/>
+        <attr name="mStatus" format="enum">
+            <enum name="Loading" value="0"/>
+            <enum name="Success" value="1"/>
+            <enum name="Failed" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
